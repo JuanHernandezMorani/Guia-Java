@@ -11,8 +11,8 @@ public class Servicios {
     public void crearPersona(){
     boolean flag = true;
         System.out.println("Ingrese nombre");
-   
- persona.setNombre(leer.nextLine());
+        
+        persona.setNombre(leer.nextLine());
  
         System.out.print("Ingrese el Apellido: ");
         persona.setApellido(leer.nextLine());
